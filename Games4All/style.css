@@ -1,0 +1,79 @@
+h1,
+p {
+    text-align : center;
+}
+img {
+    width : 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main-header{
+    background-image: linear-gradient(rgb(255, 17, 0),rgb(0, 0, 0));
+    position : fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+}
+.header.info{
+    text-align: left;
+    color: rgb(154, 36, 27);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px;
+}
+.header.info a{
+    padding: 0;
+    text-decoration: none;
+}
+.header.info a:hover {
+    background-color: transparent;
+}
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color : rgb(255, 255, 255);
+    padding-right: 5px;
+    float: left;
+}
+a:hover{
+    background-color: rgb(127, 54, 54);
+}
+.judul{
+    margin: 5%;
+}
+.title{
+    font-style: italic;
+    color :rgb(0, 0, 0)
+}
+h1,h2,h3,p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.games{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: 2px solid green;
+}
+.game{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid blue;
+}
+.portrait{
+    width: 260px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 240px;
+    border: 2px solid pink;
+}
