@@ -58,14 +58,17 @@ h1,h2,h3,p{
 }
 .games{
     display:flex;
-    flex-wrap: nowrap;
+    flex-flow: row wrap;
     justify-content: center;
-    border: 2px solid green;
 }
 .game{
     display:flex;
     flex-direction: column;
-    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin: 10px;
+    background: rgb(116, 20, 116);
 }
 .portrait{
     width: 260px;
@@ -75,5 +78,28 @@ h1,h2,h3,p{
     align-items: center;
     width: 350px;
     height: 240px;
-    border: 2px solid pink;
+}
+img{
+    border: 10px solid red;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0.5;
+    background-image: url(https://e0.pxfuel.com/wallpapers/66/162/desktop-wallpaper-create-pixel-art-background-for-your-game-pink-pixel-art.jpg);
+    background-size: cover;
+}
+img:hover{
+    opacity: 1;
+}
+h3,p{
+    text-align: center;
+    padding: 5px;
+    color: rgb(163, 211, 249);
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.rbbfz24HgDzlYc99EP9O5AHaEo?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+section.cover{
+    background-image: url(https://th.bing.com/th/id/OIP.rbbfz24HgDzlYc99EP9O5AHaEo?rs=1&pid=ImgDetMain);
+    background-size: cover;
 }
